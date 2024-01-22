@@ -1,0 +1,53 @@
+/************TAG-SELECTORS********/
+h1{ 
+    font-size: 100px;
+    color: chocolate;
+}
+
+h1:hover{
+    background-color: grey;
+}
+
+img:hover{
+    background-color: gold;
+}
+
+img:active{
+    background-color: gold;
+}
+
+p{
+    color: gray;
+}
+
+/*******CLASS-SELECTORS*********/
+.bacon1 {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+}
+
+.bacon2 {
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+
+.par:hover{
+    background-color: antiquewhite;
+}
+
+/*******ID-SELECTORS*********/
+#heading{
+    color: green;
+}
+
+
+#big{
+    font-size: 1000px;
+}
